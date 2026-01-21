@@ -1,0 +1,266 @@
+[
+  {
+    "id": "sample-001",
+    "subject": "Invoice #INV-1029 from CloudHost",
+    "sender": "billing@cloudhost.com",
+    "body": "Hello Ahmed,\n\nThank you for your purchase. Invoice INV-1029 for CloudHost Pro Plan.\nSubtotal: $120.00\nTax (VAT 5%): $6.00\nTotal: $126.00\nInvoice Date: 2025-01-12\nMerchant: CloudHost\nCurrency: USD\n\nRegards,\nCloudHost Billing",
+    "received_date": "2025-01-12T08:15:00Z",
+    "expected_category": "finance",
+    "expected_extraction": {
+      "amount": 126.0,
+      "currency": "USD",
+      "date": "2025-01-12",
+      "merchant": "CloudHost",
+      "tax": 6.0,
+      "invoice_number": "INV-1029"
+    }
+  },
+  {
+    "id": "sample-002",
+    "subject": "Payment Receipt - Fitness Club",
+    "sender": "noreply@fitclub.com",
+    "body": "Receipt for monthly membership.\nInvoice #FC-7781\nAmount: EUR 45.00\nTax: EUR 0.00\nDate: 2025-01-05\nMerchant: FitClub\nThank you!",
+    "received_date": "2025-01-05T10:45:00Z",
+    "expected_category": "finance",
+    "expected_extraction": {
+      "amount": 45.0,
+      "currency": "EUR",
+      "date": "2025-01-05",
+      "merchant": "FitClub",
+      "tax": 0.0,
+      "invoice_number": "FC-7781"
+    }
+  },
+  {
+    "id": "sample-003",
+    "subject": "Your ride receipt - GoRide",
+    "sender": "receipts@goride.com",
+    "body": "Thanks for riding with GoRide.\nTotal Fare: GBP 18.40\nTax: GBP 1.20\nTrip Date: 2025-01-09\nMerchant: GoRide\nInvoice: GR-5502",
+    "received_date": "2025-01-09T19:10:00Z",
+    "expected_category": "finance",
+    "expected_extraction": {
+      "amount": 18.4,
+      "currency": "GBP",
+      "date": "2025-01-09",
+      "merchant": "GoRide",
+      "tax": 1.2,
+      "invoice_number": "GR-5502"
+    }
+  },
+  {
+    "id": "sample-004",
+    "subject": "Bank Alert: Debit card purchase approved",
+    "sender": "alerts@banksecure.com",
+    "body": "Purchase approved at TechMart.\nAmount: USD 249.99\nDate: 2025-01-10\nTax: USD 0.00\nMerchant: TechMart\nReference: BNK-99821",
+    "received_date": "2025-01-10T14:02:00Z",
+    "expected_category": "finance",
+    "expected_extraction": {
+      "amount": 249.99,
+      "currency": "USD",
+      "date": "2025-01-10",
+      "merchant": "TechMart",
+      "tax": 0.0,
+      "invoice_number": "BNK-99821"
+    }
+  },
+  {
+    "id": "sample-005",
+    "subject": "Subscription Renewal Confirmation - StreamPlus",
+    "sender": "billing@streamplus.com",
+    "body": "Your subscription has been renewed.\nInvoice #: SP-3340\nAmount: USD 12.99\nTax: USD 0.65\nDate: 2025-01-02\nMerchant: StreamPlus\nCurrency: USD",
+    "received_date": "2025-01-02T07:30:00Z",
+    "expected_category": "finance",
+    "expected_extraction": {
+      "amount": 12.99,
+      "currency": "USD",
+      "date": "2025-01-02",
+      "merchant": "StreamPlus",
+      "tax": 0.65,
+      "invoice_number": "SP-3340"
+    }
+  },
+  {
+    "id": "sample-006",
+    "subject": "Invoice INV-2107 - Office Supplies",
+    "sender": "accounts@officesupplies.com",
+    "body": "Invoice INV-2107\nItems: printer paper, pens\nSubtotal: USD 58.00\nTax: USD 4.64\nTotal: USD 62.64\nDate: 2025-01-08\nMerchant: OfficeSupplies",
+    "received_date": "2025-01-08T11:20:00Z",
+    "expected_category": "finance",
+    "expected_extraction": {
+      "amount": 62.64,
+      "currency": "USD",
+      "date": "2025-01-08",
+      "merchant": "OfficeSupplies",
+      "tax": 4.64,
+      "invoice_number": "INV-2107"
+    }
+  },
+  {
+    "id": "sample-007",
+    "subject": "Order Confirmation #A-44119",
+    "sender": "sales@bookworld.com",
+    "body": "Thanks for your order.\nOrder #A-44119\nTotal: AUD 89.50\nTax: AUD 8.14\nDate: 2025-01-07\nMerchant: BookWorld\nInvoice: BW-44119",
+    "received_date": "2025-01-07T09:05:00Z",
+    "expected_category": "finance",
+    "expected_extraction": {
+      "amount": 89.5,
+      "currency": "AUD",
+      "date": "2025-01-07",
+      "merchant": "BookWorld",
+      "tax": 8.14,
+      "invoice_number": "BW-44119"
+    }
+  },
+  {
+    "id": "sample-008",
+    "subject": "Invoice from BrightEnergy",
+    "sender": "billing@brightenergy.com",
+    "body": "Your monthly utility bill.\nInvoice: BE-2025-01\nAmount Due: CAD 132.75\nTax: CAD 6.64\nBilling Date: 2025-01-11\nMerchant: BrightEnergy\nCurrency: CAD",
+    "received_date": "2025-01-11T06:40:00Z",
+    "expected_category": "finance",
+    "expected_extraction": {
+      "amount": 132.75,
+      "currency": "CAD",
+      "date": "2025-01-11",
+      "merchant": "BrightEnergy",
+      "tax": 6.64,
+      "invoice_number": "BE-2025-01"
+    }
+  },
+  {
+    "id": "sample-009",
+    "subject": "Invoice #INV-8841 - Design Services",
+    "sender": "billing@designstudio.com",
+    "body": "Invoice INV-8841 for design services.\nTotal: USD 850.00\nTax: USD 42.50\nDate: 2025-01-06\nMerchant: DesignStudio",
+    "received_date": "2025-01-06T13:55:00Z",
+    "expected_category": "finance",
+    "expected_extraction": {
+      "amount": 850.0,
+      "currency": "USD",
+      "date": "2025-01-06",
+      "merchant": "DesignStudio",
+      "tax": 42.5,
+      "invoice_number": "INV-8841"
+    }
+  },
+  {
+    "id": "sample-010",
+    "subject": "Your grocery receipt",
+    "sender": "receipts@grocerystore.com",
+    "body": "Receipt for GroceryStore\nTotal: USD 76.20\nTax: USD 3.82\nDate: 2025-01-03\nMerchant: GroceryStore\nInvoice: GS-7702",
+    "received_date": "2025-01-03T18:22:00Z",
+    "expected_category": "finance",
+    "expected_extraction": {
+      "amount": 76.2,
+      "currency": "USD",
+      "date": "2025-01-03",
+      "merchant": "GroceryStore",
+      "tax": 3.82,
+      "invoice_number": "GS-7702"
+    }
+  },
+  {
+    "id": "sample-011",
+    "subject": "Monthly SaaS Invoice #SA-5539",
+    "sender": "billing@taskboard.io",
+    "body": "Invoice SA-5539\nAmount: USD 29.00\nTax: USD 1.45\nDate: 2025-01-04\nMerchant: TaskBoard\nCurrency: USD",
+    "received_date": "2025-01-04T12:00:00Z",
+    "expected_category": "finance",
+    "expected_extraction": {
+      "amount": 29.0,
+      "currency": "USD",
+      "date": "2025-01-04",
+      "merchant": "TaskBoard",
+      "tax": 1.45,
+      "invoice_number": "SA-5539"
+    }
+  },
+  {
+    "id": "sample-012",
+    "subject": "Invoice: Home Cleaning Service",
+    "sender": "accounts@cleanerpro.com",
+    "body": "Thank you for your business.\nInvoice: CP-332\nTotal: USD 140.00\nTax: USD 7.00\nDate: 2025-01-13\nMerchant: CleanerPro\nCurrency: USD",
+    "received_date": "2025-01-13T16:30:00Z",
+    "expected_category": "finance",
+    "expected_extraction": {
+      "amount": 140.0,
+      "currency": "USD",
+      "date": "2025-01-13",
+      "merchant": "CleanerPro",
+      "tax": 7.0,
+      "invoice_number": "CP-332"
+    }
+  },
+  {
+    "id": "sample-013",
+    "subject": "Big Winter Sale Starts Today!",
+    "sender": "promo@fashionhub.com",
+    "body": "Up to 70% off jackets and boots. Shop now and save big!",
+    "received_date": "2025-01-05T08:00:00Z",
+    "expected_category": "non-finance",
+    "expected_extraction": null
+  },
+  {
+    "id": "sample-014",
+    "subject": "Your weekly newsletter",
+    "sender": "news@dailyupdate.com",
+    "body": "Top stories this week, including tech, sports, and health highlights.",
+    "received_date": "2025-01-06T06:15:00Z",
+    "expected_category": "non-finance",
+    "expected_extraction": null
+  },
+  {
+    "id": "sample-015",
+    "subject": "Team meeting agenda",
+    "sender": "manager@company.com",
+    "body": "Agenda for Friday's team sync: project updates, blockers, and next steps.",
+    "received_date": "2025-01-07T15:40:00Z",
+    "expected_category": "non-finance",
+    "expected_extraction": null
+  },
+  {
+    "id": "sample-016",
+    "subject": "Welcome to PhotoShare",
+    "sender": "welcome@photoshare.com",
+    "body": "Thanks for signing up! Here's how to get started with PhotoShare.",
+    "received_date": "2025-01-08T09:10:00Z",
+    "expected_category": "non-finance",
+    "expected_extraction": null
+  },
+  {
+    "id": "sample-017",
+    "subject": "Invitation: Community Meetup",
+    "sender": "events@community.org",
+    "body": "Join us for a local meetup on Saturday. Snacks and networking provided.",
+    "received_date": "2025-01-09T17:25:00Z",
+    "expected_category": "non-finance",
+    "expected_extraction": null
+  },
+  {
+    "id": "sample-018",
+    "subject": "Your password was changed",
+    "sender": "security@service.com",
+    "body": "This is a confirmation that your password was changed successfully.",
+    "received_date": "2025-01-10T21:05:00Z",
+    "expected_category": "non-finance",
+    "expected_extraction": null
+  },
+  {
+    "id": "sample-019",
+    "subject": "Re: Dinner plans",
+    "sender": "friend@example.com",
+    "body": "Are we still on for dinner this weekend? Let me know.",
+    "received_date": "2025-01-11T20:00:00Z",
+    "expected_category": "non-finance",
+    "expected_extraction": null
+  },
+  {
+    "id": "sample-020",
+    "subject": "Company holiday schedule",
+    "sender": "hr@company.com",
+    "body": "Please review the holiday schedule for 2025. Enjoy your time off!",
+    "received_date": "2025-01-12T09:00:00Z",
+    "expected_category": "non-finance",
+    "expected_extraction": null
+  }
+]
